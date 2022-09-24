@@ -227,7 +227,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `🌟 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `👑 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar fast respon'},
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
@@ -235,21 +235,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru aseli"},
 	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada suhu club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Fitur wibuh"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Masi PMO?"},
+	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users!!"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk"},
 	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
   {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Fitur pehmahlas :v"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
   {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
@@ -291,10 +291,10 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: '📮 *Note:* jangan lupa .verify dulu dan klo menemukan bug di bot segera hub owner atau menemukan masalah di bot bisa hub owner ya!!',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `CLICK SINI ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -499,11 +499,11 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n By Wh-Mods-Dev',
+            footer: titlebot + '\n By: SaxiaBotzV1',
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: `Sewa bot?`,
+                        displayText: 'Sewa bot?',
                         url: 'https://wa.me/p/5250048541774729/6283111136642'
                     }
                 },
