@@ -2,26 +2,26 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow*
+let str = `*Private *
 
-Pengen mentahan nya ?
-Nih ada santai bro....
-https://github.com/ImYanXiao/Elaina-MultiDevice
+Nyari sc banh ?
+Recode sendiri gih di yt ada
+https://github.com/Mshunone
 
-Mau Yang No Error Script Bot nya, Gas Cek Video YT :
-https://youtu.be/Pgv_GuQTPyo
+Mendingan join grub official :
+https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
 
 Pengen yang udah di recode oleh owner?
-Script bot ini dijual bila kalian mau bisa chat owner
+Script bot ini tidak di jual sayang nya cuy
 
-wa.me/6282127487538`
+wa.me/6283805685278`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz",
     mediaType: "VIDEO",
     description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    title: 'SaxiaBotzV1',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
