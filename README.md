@@ -73,8 +73,8 @@ Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu 
 
 | BuildPack | LINK |
 |--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git) |
-| **IMAGEMAGICK** | [here](https://github.com/mcollina/heroku-buildpack-imagemagick.git) |
+| **FFMPEG** https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+| **IMAGEMAGICK** https://github.com/mcollina/heroku-buildpack-imagemagick.git
 
 ## TERMUX USER
 ```bash
