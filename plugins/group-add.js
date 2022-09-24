@@ -40,7 +40,7 @@ let handler = async (m, { conn, text, participants }) => {
         m.reply(teks, null, {
             mentions: conn.parseMention(teks)
         })
-        await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, await conn.getName(m.chat), 'Invitation to join my WhatsApp group', jpegThumbnail)
+        await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, await conn.getName(m.chat), 'LU join sini di add lagi ni', jpegThumbnail)
     }
 }
 handler.help = ['add', '+'].map(v => v + ' @user')
