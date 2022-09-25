@@ -202,7 +202,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 15,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -344,7 +344,7 @@ export async function handler(chatUpdate) {
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: true,
-                jadibot: false,
+                jadibot: true,
                 restrict: true,
                 autorestart: true,
                 restartDB: 0
@@ -597,7 +597,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴛᴇʀᴘᴀᴋᴀɪ ✔️')
+                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴛᴇʀᴘᴀᴋᴀɪ -1')
                 }
                 break
             }
