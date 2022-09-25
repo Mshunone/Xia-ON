@@ -36,14 +36,14 @@ ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih dibawah ini seperlunya dan jangan spam !!'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Donasi", rowId: ".donasi"},
+	{title: "🌎 • Menu", rowId: ".menu"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
