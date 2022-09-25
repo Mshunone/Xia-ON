@@ -1,48 +1,40 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '30'
-let sp = '35'
-let sv = '65'
+let sn = '10'
+let sh = '15'
+let sp = '25'
+let sv = '75'
 //premium
-let ph = '5'
-let pn = '20'
-let pp = '40'
-let pv = '50'
-let ppm = '70'
+let ph = '15'
+let pn = '5'
+let pp = '25'
+let pv = '35'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
-┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
-┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan)_
+┊⫹⫺ *Normal:* _${sn}k/grup (1 Bulan)_
+┊⫹⫺ *Hemat:* _${sh}k/grup (2 Bulan)_
+┊⫹⫺ *Pro:* _${sp}k/grup (3 Bulan)_                                                      
+┊⫹⫺ *Vip:* = _${sv}k/grup (12 Bulan)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (1 minggu)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_
-┊⫹⫺ *Pro:* _${pp}k (4 bulan)_
-┊⫹⫺ *Vip:* _${pv}k (8 bulan)_                                               
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Hemat:* _${ph}k (1 Bulan)_
+┊⫹⫺ *Normal:* _${pn}k (1 Minggu)_
+┊⫹⫺ *Pro:* _${pp}k (2 Bulan)_
+┊⫹⫺ *Vip:* _${pv}k (8 Bulan)_                                               
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa Telkomsel:* [${ppulsa}]
-• *Dana:* [${pdana}]
-• *Gopay:* [${pgopay}]
-• *Ovo:* [${povo}]
-• *Link Aja:* [${plinkaja}]
+• *Gopay:* [--]
+• *Shopay:* [--]
 
 –––––– *🐾 Kebijakan* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja
-
-🗣️: Scam ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
-
+🗣️: Kak, Keuntungan prem apa?
+💬: Chek katalog bot !
+🗣️: Bot nya work?
+💬: Work lah 99% !
+[! Uang, di tf ga bisa di back !]
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 const sections = [
