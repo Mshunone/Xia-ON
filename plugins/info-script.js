@@ -12,7 +12,7 @@ Mendingan join grub official :
 https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
 
 Pengen yang udah di recode oleh owner?
-Script bot ini tidak di jual sayang nya cuy
+Script bot ini tidak di jual sayang nya cuy tapi mungkin owner berubah pikiran
 
 wa.me/6283805685278`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
