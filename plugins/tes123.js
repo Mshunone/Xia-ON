@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `WH MODS BOT Disini (>ω<)`
+let info = `Saxiabotz ON Cuy -,-`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*const message = {
@@ -18,7 +18,7 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
                 },
                 {
                     callButton: {
-                        displayText: '📞 Add me',
+                        displayText: '📞 Owner',
                         phoneNumber: nomorown
                     }
                 },
