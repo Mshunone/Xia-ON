@@ -9,16 +9,16 @@ let [number, pesan] = text.split `|`
 
     let korban = `${number}`
     var nomor = m.sender
-    let spam1 = `Hi Saya Bot Ada Yang Kirim Pesan Ke Kamu
+    let spam1 = `👋Hi Saya Bot Ada Yang Kirim Pesan 📩 Ke Kamu
 Seseorang Temanmu
 (Pengirim Rahasia)
 ⬡──⬡─────────⬡──⬡
-📫Pengirim : Someone
+📫Pengirim : Seorang
 
 💌 Pesan : ${pesan}
 ⬡──⬡─────────⬡──⬡
 Maaf Anda Belum Bisa Membalas ke Pengirim
-
+Donasi biar bisa balas ya !
 ------------------------------------------
 
 ▮PENGIRIM RAHASIA 」 
