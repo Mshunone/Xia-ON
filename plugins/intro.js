@@ -11,7 +11,6 @@ m.reply(`
 │ *Kelas      :* 
 │ *Asal         :* 
 │ *Agama    :* 
-|  *Status     :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
@@ -32,16 +31,15 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 │ *Kelas      :* 
 │ *Asal         :* 
 │ *Agama    :* 
-|  *Status     :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+    mediaUrl: "https://Instagram.com",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://Instagram.com", 
+    title: 'SaxiaBotz-MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
