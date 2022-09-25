@@ -14,6 +14,9 @@ const defaultMenu = {
 %m2 *Tag:* %tag
 %m2 *Status:* %prems
 %m2 *Limit:* %limit
+%m2 *Role:* %role
+%m2 *Level:* %level [ %xp4levelup Xp For Levelup]
+%m2 *Xp:* %exp / %maxexp
 %m3
 
 %m1 『 T O D A Y 』
@@ -264,7 +267,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 │「 Ⓗⓐⓛ Ⓤⓢⓔⓡ👋 」
 └┬❖ 「 ${conn.getName(m.sender)} 」
 ┌┤⌨> Gimana hari mu? 😄
-┊│-Terima Kasih Telah Menggunakan Bot ini
+┊│-Terima Kasih Telah Menggunakan Bot
 │└────────────┈ ⳹
 ┊   「 *USER INFO 克* 」
 ┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
@@ -278,6 +281,8 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┊↬✗• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
+┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
+┊↬✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 ┗––––––––––––––––––❐
 ┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
