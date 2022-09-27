@@ -2,16 +2,14 @@
 
 let krtu = `Kartu Intro`
 m.reply(`
-0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
+𝐈𝐍𝐓𝐑𝐎‹•═════════════❏
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
 │ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
-╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+╰═════ WELCOME. ━━━━❏
 `.trim()) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
@@ -22,16 +20,14 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
+let krtu `= 𝐈𝐍𝐓𝐑𝐎‹•═════════════❏
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
-│ *Hobby    :* 
 │ *Kelas      :* 
 │ *Asal         :* 
-│ *Agama    :* 
-╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+╰═════ WELCOME. ━━━━❏
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
