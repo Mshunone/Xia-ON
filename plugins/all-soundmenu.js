@@ -17,7 +17,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih dibawah ini dan jangan spam!!'
 const sections = [
    {
 	title: `${htjava} SOUND MENU –––––––––·•`,
@@ -146,9 +146,9 @@ const sections = [
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: " • Donasi", rowId: ".owner nomor"},
+	{title: " • Sewa", rowId: ".sewa"},
+	{title: " • Buy Premium", rowId: ".premium"},
 	]
   },
 ]
