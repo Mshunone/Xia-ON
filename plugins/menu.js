@@ -216,47 +216,47 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
-	    {title: `🎭 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "kecepatan Bot"},
+	    {title: `🎭 ${pmenus} OWNER BOT`, rowId: ".owner", description: "List owner Bot"},
 	    {title: `🌱 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `🌟 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `💎 ${pmenus} SEWA`, rowId: ".sewa", description: "list harga sewa BOT"},
 	    {title: `👑 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-	    {title: `⛩️ ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar fast respon'},
+	    {title: `🤍 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar fast respon'},
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-	    {title: `● ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `● ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-	{title: `● ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `● ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru aseli"},
-	{title: `● ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `● ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada suhu club"},
-	{title: `● ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `● ${pmenus} Anime`, rowId: ".? anime", description: "Fitur wibuh"},
-	{title: `● ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Masi PMO?"},
-	{title: `● ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users!!"},
-	{title: `● ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `● ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk"},
-	{title: `● ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-  {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-	{title: `● ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-	{title: `● ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `● ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
-	{title: `● ${pmenus} Nulis`, rowId: ".? nulis", description: "Fitur pehmahlas :v"},
-	{title: `● ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-  {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
-	{title: `● ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: `● ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `● ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `● ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-	{title: `● ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: `● ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+	    {title: ` ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua Menu"},
+	    {title: ` ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Rpg?"},
+	{title: ` ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan exp"},
+	{title: ` ${pmenus} Game`, rowId: ".? game", description: "Gamenya aseli"},
+	{title: ` ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman ajah"},
+	{title: ` ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada suhu coy"},
+	{title: ` ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi coy"},
+	{title: ` ${pmenus} Anime`, rowId: ".? anime", description: "Fitur wibuh anjrit"},
+	{title: ` ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Masi PMO? TOBAT"},
+	{title: ` ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users!!"},
+	{title: ` ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang cuy"},
+	{title: ` ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: ` ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBot yok"},
+  {title: ` ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
+	{title: ` ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu dibot yok"},
+	{title: ` ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBot"},
+	{title: ` ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBot"},
+	{title: ` ${pmenus} Nulis`, rowId: ".? nulis", description: "Fitur pehmahlas :v"},
+	{title: ` ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+  {title: ` ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound Random"},
+	{title: ` ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
+	{title: ` ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
+	{title: ` ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBot"},
+	{title: ` ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: ` ${pmenus} Info`, rowId: ".? info", description: "Inpo Bot cuy"},
+	{title: ` ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
+	{title: ` ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur ga tawu, ytta"},
 	]
   },
 ]
@@ -264,21 +264,17 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌––––––––––––––––––❐
-│「 Ⓗⓐⓛ Ⓤⓢⓔⓡ👋 」
-└┬❖ 「 ${conn.getName(m.sender)} 」
-┌┤⌨> Gimana hari mu? 😄
+│「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
+└┬❏ 「 ${conn.getName(m.sender)} 」
+┌┤▸ Gimana hari mu? 😄
 ┊│-Terima Kasih Telah Menggunakan Bot
 │└────────────┈ ⳹
-┊   「 *USER INFO 克* 」
-┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┊↬✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
+┊   「 *USER INFO* 」
+┊↬✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
 ┊↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 ┊↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-┗–––––––––––––––––❐
-┌–––––––––––––––––❐
-┊   「 *STATUS INFO 比* 」
-┊↬✗• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┊↬✗• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+├–––––––––––––––––❐
+┊   「 *STATUS INFO* 」
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
 ┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
@@ -502,7 +498,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: 'Sewa bot?',
-                        url: 'https://wa.me/p/5250048541774729/6283111136642'
+                        url: 'https://wa.me/6283805685278'
                     }
                 },
                 {
