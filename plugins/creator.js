@@ -21,13 +21,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Nama* : Mrcl-?
-${htjava} *✉️ Nama RL* : Mford01
+${htjava} *✉️ Nama RL* : Mrcl
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : --
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
 ${htjava} *🎨 Umur* : Private 
 ${htjava} *🧮 Kelas* : Sekolah.
-${htjava} *🧩 Hobby* : Programing, futsal, voly
+${htjava} *🧩 Hobby* : Programing & futsal
 ${htjava} *💬 Sifat* : Asik tapi sering sibuk
 ${htjava} *🗺️ Tinggal* : Indonesia, Jawa Timur
 ${htjava} *❤️ Waifu* : Banyaaa
@@ -41,16 +41,16 @@ const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Menu", rowId: ".menu"},
+	    {title: "👻 • Nomor", rowId: ".owner nomor"},
+	{title: "👻 • Biodata", rowId: ".owner bio"},
+	{title: "👻 • Menu", rowId: ".menu"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "👑 • Donasi", rowId: ".owner nomor"},
+	{title: "👑 • Sewa", rowId: ".sewa"},
+	{title: "👑 • Buy Premium", rowId: ".premium"},
 	]
   },
 ]
