@@ -267,7 +267,6 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 │「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
 └┬❏ 「 ${conn.getName(m.sender)} 」
 ┌┤▸ Gimana hari mu? 😄
-┊│-Terima Kasih Telah Menggunakan Bot
 │└────────────┈ ⳹
 ┊   「 *USER INFO* 」
 ┊↬✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
@@ -285,7 +284,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* jangan lupa .verify dulu dan klo menemukan bug di bot segera cht owner atau menemukan masalah di bot bisa cht owner ya!!. Mau req Fitur? bisa !',
+  footer: '©SaxiaBotV1',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK SINI ⎙`, 
