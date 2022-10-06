@@ -266,13 +266,11 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌––––––––––––––––––❐
 │「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
 └┬❏ 「 ${conn.getName(m.sender)} 」
-┌┤▸ Gimana hari mu? 😄
-│└────────────┈ ⳹
-┊   「 *USER INFO* 」
+┌┤  「 *USER INFO* 」
 ┊↬✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
 ┊↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 ┊↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-├–––––––––––––––––❐
+├–––––––––––––––––⳹
 ┊   「 *STATUS INFO* 」
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
@@ -576,13 +574,13 @@ function ucapan() {
     res = "Pagi Lord 🌄"
   }
   if (time >= 10) {
-    res = "Selamat Siang ☀️"
+    res = "Selamat Siang 🏞️"
   }
   if (time >= 15) {
-    res = "Selamat Sore 🌇"
+    res = "Selamat Sore 🌆"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Malam Kak 🌌"
   }
   return res
 }
