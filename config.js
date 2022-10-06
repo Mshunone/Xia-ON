@@ -167,7 +167,7 @@ global.fpagedoc = '999'
 
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
-global.dmenut = 'ଓ═┅═━–〈' //top
+global.dmenut = 'ଓ═┅═━–' //top
 global.dmenub = '┊↬' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
@@ -178,7 +178,7 @@ global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊✦ ' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
+global.cmenua = '\n ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ \n     ' //after
 global.pmenus = '✦' //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
