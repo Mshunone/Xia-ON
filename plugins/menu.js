@@ -263,9 +263,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-┌––––––––––––––––––❐
+┌━━━━━━━━━━━━━━━━┈─❐
 │「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
-└┬❏ 「 ${conn.getName(m.sender)} 」
+└┬✥ 「 ${conn.getName(m.sender)} 」
 ┌┤────────────┈ ⳹
 ┊   「 *USER INFO* 」
 ┊✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
@@ -274,8 +274,8 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┊✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
 ┊✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
-┊✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┗––––––––––––––––––❐
+┊↬✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+┗━━━━━━━━━━━━━━━┈─❏
 ┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
