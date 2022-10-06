@@ -214,21 +214,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `${htki} MAIN ${htka}`,
+	title: `${htki} DASHBOARD ${htka}`,
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "kecepatan Bot"},
 	    {title: `🎭 ${pmenus} OWNER BOT`, rowId: ".owner", description: "List owner Bot"},
 	    {title: `🌱 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
-	title: `${htki} SUPPORT ${htka}`,
+	title: `${htki} SUPPORT GW ${htka}`,
 	rows: [
 	    {title: `💎 ${pmenus} SEWA`, rowId: ".sewa", description: "list harga sewa BOT"},
 	    {title: `👑 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `🤍 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar fast respon'},
 	]
 	},{
-	title: `${htki} MENU ${htka}`,
+	title: `${htki} MENU NYA ${htka}`,
 	rows: [
 	    {title: ` ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua Menu"},
 	    {title: ` ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Rpg?"},
@@ -266,16 +266,15 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌––––––––––––––––––❐
 │「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
 └┬❏ 「 ${conn.getName(m.sender)} 」
-┌┤  「 *USER INFO* 」
-┊↬✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
-┊↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-├–––––––––––––––––⳹
-┊   「 *STATUS INFO* 」
-┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
-┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
-┊↬✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+┌┤────────────┈ ⳹
+┊   「 *USER INFO* 」
+┊✗• *ɴᴀᴍᴇ:* @${m.sender.split`@`[0]}
+┊✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┊✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┊✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
+┊✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
+┊✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
+┊✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 ┗––––––––––––––––––❐
 ┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
