@@ -45,7 +45,7 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
         return await conn.sendMessage(m.chat, message)*/
 conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: 'Yaw? ada apa kak?', sourceUrl: snh, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
 }
-handler.customPrefix = /^(tes|bot|whmods)$/i
+handler.customPrefix = /^(tes|bot|xia|Xia)$/i
 handler.command = new RegExp
 
 export default handler
