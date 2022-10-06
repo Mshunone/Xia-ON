@@ -273,9 +273,9 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┊✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ┊✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
-┊✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 ┊✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
 ┗━━━━━━━━━━━━━━━┈─❏
+✗> *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 ┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
