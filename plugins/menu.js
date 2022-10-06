@@ -281,7 +281,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '©SaxiaBotV1',
+  footer: '📮 *Note:* klo ada Bug Cht owner ya coy nanti biar di buff klo ada yg di tanyakan cht owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ ©SaxiaBotV1',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK SINI ⎙`, 
